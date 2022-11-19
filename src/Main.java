@@ -1,5 +1,10 @@
 public class Main {
+    static ManagingPlayers manage = new ManagingPlayers();
+
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        manage.SellFc();
+
+
     }
 }
